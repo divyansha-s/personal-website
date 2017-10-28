@@ -7,11 +7,27 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <style type="text/css">
+  header {
+  padding: 250px 0 250px;
+  background-image: url(header.jpg);
+  -webkit-background-size: cover; /* For WebKit*/
+  -moz-background-size: cover;    /* Mozilla*/
+  -o-background-size: cover;      /* Opera*/
+  background-size: cover;
+  }    
+
+  section {
+  padding: 50px 0;
+}
+
+  </style>
 </head>
 <body>
 
 
-<nav class="navbar navbar-inverse navbar-expand-lg navbar-dark bg-dark sticky-top" id = "navigation">
+<nav class="navbar navbar-inverse navbar-expand-lg navbar-dark bg-dark sticky-top"  id = "navs">
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="#">Divyansha Sehgal</a>
@@ -24,218 +40,130 @@
   </div>
 </nav>
 
-<!-- <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+<!-- <nav class="navbar navbar-light" style="background-color: #33ff33;">
   Navbar content
-</nav> -->
+</nav> 
+class="bg-primary"-->
 
-<div class = "container text-center">
-	<p><h2>Hi, I'm Divyansha</h2></p>
-</div>
 
-<center><div class = "container ">
+<header>
+  <div class="container text-center">
+    <h1 style="color: white;">Hi I'm Divyansha</h1>
+    <p class="lead" style="color: white;">I'm a technologist and a writer</p>
+  </div>
+</header>
+
+<!-- <center><div class = "container ">
 	<img src="pic.jpg" class="img-circle img-responsive" alt="Picture"  width="250" height="200">
-</div></center>
+</div></center> -->
 
 <!-- <div class = "container text-center">
 	<p><h2> Engineer | Writer | Avid Podcast Listener | Responsible Computing Advocate</h2></p>
-</div> -->
+</div>  -->
 
-<div class = "container text-center">
+<!-- <br>
+
+<div class = "container text-center p-y-5">
   <p><h2>Journalism and Other Writing Experience</h2></p>
 </div>
+<br> -->
 
-<div class = "container">
-  <div class = "row">
-    <div class = "col-lg-4">
-
-        <div class="card" style="width: 90%;">
-          <img class="card-img-top" src="cat.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+<section id="services" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+             <div class="card" style="width: 80%;">
+                <img class="card-img" src="images\nyc.jpg" alt="Card image cap">
+              </div> 
           </div>
-        </div>     
-    </div>
-
-
-    <div class = "col-lg-4">
-      
-        <div class="card" style="width: 90%;">
-          <img class="card-img-top" src="cat.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+          <div class="col-md-6">
+            <h2>The Cornell Daily Sun</h2>
+            <p class="lead">I served as the Science Editor on the 134th Editorial Board of Cornell University's daily newspaper, The Cornell Daily Sun. I have also been a news and a science writer for the paper for a large part of my time at Cornell.</p>
+            <p>
+              You can find out more about my role as Science Editor <a href = '#'> here </a> and find other notable coverage <a href="#"> here </a>
+            </p>
           </div>
-        </div>   
-     
-    </div>
+        </div>
+      </div>
+    </section>
 
-
-    <div class = "col-lg-4">
-    
-       <div class="card" style="width: 90%;">
-          <img class="card-img-top" src="cat.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+<section id="services" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+             <h2>Other Writing</h2>
+            <p class="lead">In addition to objective reporting, I have also written well researched longform articles on technology and society. Here are some of them:</p>
+            <ul>
+              <li> one </li>
+              <li> two </li>
+            </ul>
           </div>
-        </div>   
-      
-    </div>
+          <div class="col-md-6">
+            <div class="card float-right" style="width: 80%;">
+                <img class="card-img" src="images\nyc.jpg" alt="Card image cap">
+          </div>
+        </div>
+      </div>
+    </section>
+
+<section id="services" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+             <div class="card" style="width: 80%;">
+                <img class="card-img" src="images\nyc.jpg" alt="Card image cap">
+              </div> 
+          </div>
+          <div class="col-md-6">
+            <h2>Cornell Design and Technology Initiative</h2>
+            <p class="lead">I am a Product Manager for the CDTI project -- Cornell Reviews. I manage a team of 7 people creating a course review system for the Cornell community using Meteor.js. </p>
+            <p>You can learn more about the process <a href="#"> here</a> I make final decisions on product, lead team meetings, brainstorming sessions, and ensure deadlines are met. My role is flexible role depending on immediate product needs; I have been actively involved in user research and web development in different part of the product development cycle.</p>
+            <p>The project can be found <a href="#"> here</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<section id="services" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+             <h2>Independent Study on Due Process in Algorithmic System</h2>
+            <p class="lead">I work with Prof. Malte Zeiwitz of Cornell's Department of Science and Technology Studies to probe the question of due process in algorithmic systems. </p>
+            <p>In the last few years, algorithmic decisions have quickly become commonplace.Hiring managers use algorithms to sort through resumes and find the best candidate for a job; credit scoring algorithms track people’s payment history to assign them a low or high credit score; and predictive policing uses data to identify areas of potentially high crime</p>
+            <p>However, most companies keep their algorithms secret, so not even experts are allowed to peek inside the “black box.” So what can someone who believes he/she has been wrongfully classified, rejected or policed by an algorithm do to challenge the decision? This is the question I am exploring.</p>
+          </div>
+          <div class="col-md-6">
+            <div class="card float-right" style="width: 80%;">
+              <img class="card-img" src="images\nyc.jpg" alt="Card image cap">
+          </div>
+        </div>
+      </div>
+    </section>
+
+<section id="services" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card" style="width: 80%;">
+              <img class="card-img" src="images\nyc.jpg" alt="Card image cap">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h2>Independent Study at Verifiable Robotics Lab</h2>
+            <p class="lead"> I worked on two projects over the course of a year at the Verifiable Robotics Lab at Cornell. </p>
+            <p>For the first project, I created a user interface (visualization tool) so that a non-technical user could understand and operate the robot. This visualisation tool was published as part of the paper <a href="#">"Automated generation of dynamics-based run-time certificates for high-level control"</a> </p>
+            <p>The second project helped me learn concepts from Natural Language Processing using Python.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<footer class="py-5 bg-dark">
+  <div class="container">
+    <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
   </div>
-</div>
-
-
-
-<div class = "container text-center">
-  <p><h2>Team and Research Projects</h2></p>
-</div>
-
-<div class = "container">
-  <div class = "row">
-    <div class = "col-lg-4">
-
-        <div class="card" style="width: 90%;">
-          <img class="card-img-top" src="cat.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>     
-    </div>
-
-
-    <div class = "col-lg-4">
-      
-        <div class="card" style="width: 90%;">
-          <img class="card-img-top" src="cat.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>   
-     
-    </div>
-
-
-    <div class = "col-lg-4">
-    
-       <div class="card" style="width: 90%;">
-          <img class="card-img-top" src="cat.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>   
-      
-    </div>
-  </div>
-</div>
-
-
-<div class = "container text-center">
-  <p><h2>Professional Experience (aka stuff I got paid for)</h2></p>
-</div>
-
-<div class = "container">
-  <div class = "row">
-    <div class = "col-lg-4">
-
-        <div class="card" style="width: 90%;">
-          <img class="card-img-top" src="cat.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>     
-    </div>
-
-
-    <div class = "col-lg-4">
-      
-        <div class="card" style="width: 90%;">
-          <img class="card-img-top" src="cat.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>   
-     
-    </div>
-
-
-    <div class = "col-lg-4">
-    
-       <div class="card" style="width: 90%;">
-          <img class="card-img-top" src="cat.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>   
-      
-    </div>
-  </div>
-</div>
-
-<div class = "container text-center">
-  <p><h2>Extracurricular involvement</h2></p>
-</div>
-
-<div class = "container">
-  <div class = "row">
-    <div class = "col-lg-4">
-
-        <div class="card" style="width: 90%;">
-          <img class="card-img-top" src="cat.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>     
-    </div>
-
-
-    <div class = "col-lg-4">
-      
-        <div class="card" style="width: 90%;">
-          <img class="card-img-top" src="cat.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>   
-     
-    </div>
-
-
-    <div class = "col-lg-4">
-    
-       <div class="card" style="width: 90%;">
-          <img class="card-img-top" src="cat.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>   
-      
-    </div>
-  </div>
-</div>
-
-
+</footer>
 
 </body>
 </html>
